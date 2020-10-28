@@ -1,0 +1,4 @@
+body{background-color:blue;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;display:-webkit-box;display:-ms-flexbox;display:flex}
+body p{font-size:1.5rem}.grid{display:-ms-grid;display:grid;-ms-grid-columns:(1fr)[2];grid-template-columns:repeat(2,1fr);-ms-grid-rows:auto;grid-template-rows:auto}
+.grid>*:nth-child(1){-ms-grid-row:1;-ms-grid-column:1}.grid>*:nth-child(2){-ms-grid-row:1;-ms-grid-column:2}
+header{background-color:blueviolet;height:100px}

@@ -8,7 +8,8 @@
   </head>
   <body>
     @@include('./header.html')
-    <div>Hello</div>
+    <div>Hello World!</div>
+    @@include('./inject.html',{ "data": "Injected data!" })
     @@include('./footer.html')
   </body>
 </html>
